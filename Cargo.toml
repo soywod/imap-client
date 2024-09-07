@@ -14,6 +14,7 @@ keywords = ["email", "imap", "client"]
 [dev-dependencies]
 static_assertions = "1.1.0"
 tokio = { version = "1.37.0", features = ["full"] }
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 
 [dependencies]
 imap-next = { version = "0.2.0", features = ["expose_stream", "tag_generator", "starttls", "ext_id", "ext_metadata", "rustls_ring"] }
@@ -25,4 +26,6 @@ tokio-rustls = { version = "0.26.0", default-features = false, features = ["logg
 tracing = "0.1.40"
 
 [patch.crates-io]
+imap-codec = { git = "https://github.com/duesee/imap-codec" }
 imap-next = { git = "https://github.com/soywod/imap-next" }
+# imap-next = { path = "/home/soywod/code/imap-next" }
