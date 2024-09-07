@@ -191,7 +191,7 @@ dependencies = [
 [[package]]
 name = "imap-next"
 version = "0.2.0"
-source = "git+https://github.com/soywod/imap-next#3b3aab74033125dc14766a203dba3b0e80163f2f"
+source = "git+https://github.com/soywod/imap-next?branch=greeting-timeout#fb79a9cc438d2ab98636b84443f3345a326ab691"
 dependencies = [
  "bytes",
  "imap-codec",

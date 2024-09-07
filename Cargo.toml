@@ -27,5 +27,4 @@ tracing = "0.1.40"
 
 [patch.crates-io]
 imap-codec = { git = "https://github.com/duesee/imap-codec" }
-imap-next = { git = "https://github.com/soywod/imap-next" }
-# imap-next = { path = "/home/soywod/code/imap-next" }
+imap-next = { git = "https://github.com/soywod/imap-next", branch = "greeting-timeout" }
